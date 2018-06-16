@@ -1,0 +1,59 @@
+{
+  "project_info": {
+    "project_number": "113298598061",
+    "firebase_url": "https://fuckyoufuckingfuck.firebaseio.com",
+    "project_id": "fuckyoufuckingfuck",
+    "storage_bucket": "fuckyoufuckingfuck.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:113298598061:android:e2a37c7fd64595c2",
+        "android_client_info": {
+          "package_name": "com.example.aleks.fuckyoufuckingfuck"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "113298598061-n5frghgmsjfjotudo9smqkcviiiai5kg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.aleks.fuckyoufuckingfuck",
+            "certificate_hash": "f12cc3785dc6374298ec1fbecf4a37436690d96b"
+          }
+        },
+        {
+          "client_id": "113298598061-bs2ar1f6kc3q02nepitdthmqs4qlst7k.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "113298598061-bs2ar1f6kc3q02nepitdthmqs4qlst7k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC2qKr_OcqwNbthPmTsIs51mVE6J59KSk8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "113298598061-bs2ar1f6kc3q02nepitdthmqs4qlst7k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
