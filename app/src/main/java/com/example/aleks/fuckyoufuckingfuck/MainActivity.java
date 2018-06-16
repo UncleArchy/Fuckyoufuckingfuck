@@ -1,6 +1,9 @@
 package com.example.aleks.fuckyoufuckingfuck;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.support.annotation.Nullable;
+import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.text.format.DateFormat;
 import android.view.View;
@@ -65,8 +68,24 @@ public class MainActivity extends AppCompatActivity {
                 text.setText(model.getTextMessage());
                 author.setText(model.getAuthorMessage());
                 time.setText(DateFormat.format("dd-MM-yyyy (MM:mm:ss)", model.getTimeMessage()));
+
             }
         };
+        listMessage.setAdapter(adapter);
     }
 
+    @Override
+    protected void onActivityResult(int requestCode, int resultCode, @Nullable Intent data) {
+        super.onActivityResult(requestCode, resultCode, data);
+        if(requestCode == SIGN_IN_REQUEST_CODE){
+            if(resultCode == RESULT_OK){
+                Snackbar.make(activity_main, "Вход успешен", Snackbar.LENGTH_SHORT).show();
+                displayChat();
+            }
+            else{
+                Snackbar.make(activity_main, "Вход неуспешен", Snackbar.LENGTH_SHORT).show();
+                finish();
+            }
+        }
+    }
 }
